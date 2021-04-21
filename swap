@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	int a=0,b=0;
+	printf("enter two nos.\n",a,b);
+	scanf("%d%d",&a,&b);
+	printf("nos. before swapping are %d and %d\n",a,b);
+	a=a+b;
+	b=a-b;
+	a=a-b;
+	printf("nos. after swapping are %d and %d\n",a,b);
+	return 0;
+}
